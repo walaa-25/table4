@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(190, 185, 185);
+}
+.container{
+    background-color: rgb(254, 254, 255);
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    margin-top:40px ;
+    border-radius: 20px;
+    position: relative;
+}
+.container .head{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.container .head i{
+    padding: 10px;
+}
+.content .photo{
+    display: flex;
+    
+}
+.content .photo img{
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.content2 h2{
+    
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 30px;
+}
+.content2 p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding-bottom: 40px;
+    padding: 20px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 200px;
+    background-color: rgb(173, 38, 122);
+    padding:15px  17px;
+    border-radius: 40px;
+    padding-bottom: 20px;
+    
+}
+.box p{
+    font-size: 24px;
+    color: white;
+}
+.bottom{
+    display: flex;
+    
+    
+    padding: 40px;
+    justify-content: space-between;
+}
+i{
+    font-size: 20px;
+}
+.bottom i{
+    color: white;
+    font-size: 25px;
+    
+}
+.bottom div a.dri{
+    background-color: rgb(206, 71, 154);
+    width: 200px;
+    padding: 20px;
+    border-radius: 50%;
+    
+}
+.bottom div div{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 0;
+}
+.bottom div a.beh{
+    background-color: rgb(71, 134, 206);
+    width: 200px;
+    padding: 20px;
+    border-radius: 50%;
+    
+}
+.bottom div a.twitter{
+    background-color: rgb(43, 62, 148);
+    width: 200px;
+    padding: 20px;
+    border-radius: 50%;
+    
+}
+
+
